@@ -86,4 +86,34 @@ Iaac
 ---
 E4 : Creating The System Design For my Web App: S3, Lambda, Polling
 ------------------------------------------------------------------------
+- System Design will be the technical solution to the webapp we are building 
+- Make sure to understand all the requirements and user stories
+- Understand the user flow and user steps to create a great solution and then backtrack to understand technical steps 
 
+- ![alt text](Images/image-7.png)
+
+- High Level - System Design | progress bar depends on s3 and lamda communication
+
+- ![alt text](Images/image-6.png)
+
+- S3 event source will trigger the lamda. Every time a new image is added to S3, a corresponding lamda will be called
+- In our case, whenever a image is added to S3, we can do RGB splitting for our lambda and put it back to our S3 bucket.
+- S3 has public and private bucket. If it's a public bucket then anyone can see it. To avoid this we need a presigned url. So what it does is you can only access the bucket through my NextJS application. you need to go through my NextJS application to access the S3 bucket
+- Presigned url allows browsers to upload image to S3 bucket - browsers will make a POST request to S3 bucket
+- Technical - System Design
+- ![alt text](Images/image-8.png)
+- Image upload workflow - System Design
+- ![alt text](Images/image-9.png)
+
+- Image download workflow - System Design
+- ![alt text](Images/image-10.png)
+
+- Polling workflow - System Design (Progress bar) Image uuid as object key
+- ![alt text](Images/image-11.png)
+
+- RGB Spliting workflow - System Design
+- ![alt text](Images/image-12.png)
+
+---
+E5 : How To Create A Tech Design Doc
+------------------------------------------------------------------------
