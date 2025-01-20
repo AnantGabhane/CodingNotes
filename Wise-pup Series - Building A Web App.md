@@ -24,7 +24,7 @@ What do i want to build and learn ?
 	- Idea - Build an app that tracks your workout routines and suggests exercises
 
 Competitors -- Model of operation
-![[Pasted image 20250117003446.png]]
+![alt text](Images/image.png)
 
 Learn a concept -- code out that concept -- Deploy on web-app for interaction
 
@@ -32,21 +32,22 @@ Understand the pain points and offer a solution to that pain point
 Process and iteration 
 
 -----------------------------------------------------------------------
-**E2 : Product Requirements Document
+
+E2 : Product Requirements Document
 ----------------------------------------------------------------------------------
 - PRD will contain - who, what, where and how of product
-- ![[Pasted image 20250117004422.png]]
-
-- ![[Pasted image 20250117004535.png]]
+- ![alt text](Images/image-1.png)
+	- ![alt text](Images/image-2.png)
 - User Stories - As a user I want to (do this) so that I can (do this)
 ----
 - Introduction 
 	- This project intends to accomplish this.
 - Objectives
 	- End goal of this project is to.
-- PRFAQ - End goal of the project to get traction -- Press release (this is used by to --
-	- ![[Pasted image 20250117004952.png]]
-	- ![[Pasted image 20250117005211.png]]
+- PRFAQ - End goal of the project to get traction -- Press release (this is used by to
+	
+	- ![alt text](Images/image-3.png)
+	- ![alt text](Images/image-4.png)
 - Scope
 	- Ability for user to upload media 
 	- Transform media 
@@ -68,10 +69,9 @@ Process and iteration
 - Dev Timeline 
 - Launch / Marketing Strategy
 ---
-**E3 : Tech Stack
+E3 : Tech Stack
 ----------------------------------------------------------------------------------
-![[Pasted image 20250117010016.png]]
-
+![alt text](Images/image-5.png)
 Vercel 
 - PAAS deploy application for you 
 AWS 
@@ -84,5 +84,6 @@ Back-end
 Iaac
 - Terra-form code (cloud agnostic)
 ---
-# **E4 : Creating The System Design For my Web App: S3, Lambda, Polling
+E4 : Creating The System Design For my Web App: S3, Lambda, Polling
 ------------------------------------------------------------------------
+
