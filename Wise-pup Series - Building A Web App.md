@@ -168,3 +168,65 @@ Milestone / Dev task
 E6 : Hello World! Deploying My Next.JS App On Vercel
 ------------------------------------------------------------------------
 
+
+- Overview (linked with PRD)
+
+- Define how you are going to satisfy the user stories 
+
+
+System Design - High level overview
+- ![alt text](Images/image0.png)
+- ![alt text](Images/image-8.png)
+
+- ![alt text](Images/image-13.png)
+
+- ![alt text](Images/image-14.png)
+
+- ![alt text](Images/image-15.png)
+
+S3 Notifications / trigger :
+- we then want to take the RGB splitted file and upload it back to S3
+- Whenever you upload a image onto, you can make it so lambda will be invoked on that object that you've jus uploaded
+
+- https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
+
+- There is chance of infinite loop over processed images with single s3 useage to we decided to create 2 different s3 buckets, one for imput image and one for processed output image
+
+- ![alt text](Images/image-16.png)
+
+User downlaod :
+- ![alt text](Images/image-17.png)
+
+Polling 
+
+- ![alt text](Images/image-18.png)
+
+- HeadObject - if it returns a metadata then it means it exists in s3
+
+- ![alt text](Images/image-19.png)
+
+- https://docs.aws.amazon.com/AmazonS3/latest/API/API_HeadObject.html
+
+API 
+- ![alt text](Images/image-20.png)
+
+Milestone / Dev task 
+- ![alt text](Images/image-22.png)
+- ![alt text](Images/image-23.png)
+- ![alt text](Images/image-24.png)
+
+---
+E6 : Hello World! Deploying My Next.JS App On Vercel
+------------------------------------------------------------------------
+
+- Create a repo on Github
+- initialize a next js app
+- https://nextjs.org/docs/app/getting-started/installation
+
+- npx create-next-app@latest
+
+- npm run dev -- to locally run the next js app
+
+- attach github repository to vecel - create a deployment and webapp will be deployed and live
+
+---
