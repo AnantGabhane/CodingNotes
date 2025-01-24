@@ -216,7 +216,7 @@ Milestone / Dev task
 - ![alt text](Images/image-24.png)
 
 ---
-E6 : Hello World! Deploying My Next.JS App On Vercel
+E7 : Hello World! Deploying My Next.JS App On Vercel
 ------------------------------------------------------------------------
 
 - Create a repo on Github
@@ -230,3 +230,19 @@ E6 : Hello World! Deploying My Next.JS App On Vercel
 - attach github repository to vecel - create a deployment and webapp will be deployed and live
 
 ---
+E7 : Creating A File Uploader Component
+------------------------------------------------------------------------
+
+- Step 1 of the workflow to allows user to upload a image 
+- UI Library - https://ui.shadcn.com/
+- accept="image/*" -> accept only images
+- the way next js works and SSR work is that when you go onto homepage page.tsx it's gping to render all the html that it'll need on the server side
+- Any interaction with the client side you need to label it as client side as -> "use client";
+- FileUploader is returning a react component
+- input for this is choose file - if the file exists then its goona create a file reader - once done set state on image 
+
+- Alert on file size -> UI component from shadcn -- if file size is too big then render an alert on the UI 
+	- State to determine if file size too big
+
+
+- AssetType - defines what you are uploading onto the browser | all asset types have different types of asset configs
