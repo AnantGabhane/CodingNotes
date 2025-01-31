@@ -246,3 +246,15 @@ E7 : Creating A File Uploader Component
 
 
 - AssetType - defines what you are uploading onto the browser | all asset types have different types of asset configs
+
+---
+E8 : How To Create An AWS Account
+------------------------------------------------------------------------
+- ![alt text](Images/Tasks.png)
+- Root Account - use at least as possible - All permissions
+  - ![alt text](Images/Root.png)
+- Admin user - sub section of admin user and root can remove admin in case of leaks 
+  - ![alt text](Images/Admin.png)
+- Dev user - principal of least usage
+  - ![alt text](Images/Dev.png)
+- ![alt text](Images/Final.png)
