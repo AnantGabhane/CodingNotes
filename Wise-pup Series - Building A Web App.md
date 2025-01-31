@@ -258,3 +258,13 @@ E8 : How To Create An AWS Account
 - Dev user - principal of least usage
   - ![alt text](Images/Dev.png)
 - ![alt text](Images/Final.png)
+
+--- 
+E9 : Infrastructure As Code (IaaC) Explained: Pulumi And S3 
+------------------------------------------------------------------------
+- Introduction : ![alt text](Images/IaaC.png)
+- ![alt text](Images/IaaC1.png)
+- Software is a house. Infrastructure is a foundation that you need to keep house warn.
+- Creation of S3 Bucket - go to search bar - s3 - create bucket
+- pulumi - as a IaaC software. What it does is gets to AWS and does action on behalf of you 
+- ![alt text](Images/IaaC-1.png)
