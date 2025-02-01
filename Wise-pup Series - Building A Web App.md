@@ -260,7 +260,7 @@ E8 : How To Create An AWS Account
 - ![alt text](Images/Final.png)
 
 --- 
-E9 : Infrastructure As Code (IaaC) Explained: Pulumi And S3 
+E9 : Infrastructure As Code (IaaC) Explained: Pulumi And S3  
 ------------------------------------------------------------------------
 - Introduction : ![alt text](Images/IaaC.png)
 - ![alt text](Images/IaaC1.png)
@@ -268,3 +268,18 @@ E9 : Infrastructure As Code (IaaC) Explained: Pulumi And S3
 - Creation of S3 Bucket - go to search bar - s3 - create bucket
 - pulumi - as a IaaC software. What it does is gets to AWS and does action on behalf of you 
 - ![alt text](Images/IaaC-1.png)
+
+---
+E10 : AWS IAM Users And Policy Explained
+------------------------------------------------------------------------
+- ![alt text](pulumi.png)
+- Granting access to your aws users
+- IAM user is a entity in aws that a webapp or a user or developer can assume 
+- It could be your NextJs application or a backend service. it can be any entity that assumes this user role
+- Goal : Create a IAM user specific to our NextJs application 
+- For your IAM user you can define a policy and policy determines what you can do and cannot do in terms of AWS resources
+- How do you enable a person or a service to assume this IAM role is using **access keys**. You can ask pulumi to create a access key
+- These are of 2 typrs access key and secrete access key -- anyone with the secreat acccess key can asscume the role of your IAM User | secreat acccess key keep it private
+- Wrote [pulumi_code](pulumi_code.py) to create a IAM User with policy / permissions and created a AWS bucket as well 
+- ![alt text](pulumi-1.png)
+- ![alt text](pulumi-2.png)
